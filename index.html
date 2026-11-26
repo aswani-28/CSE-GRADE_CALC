@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>
+        CGPA calculator
+        </title>
+        <link rel="stylesheet" href="./STYLE.CSS">
+        
+        
+    </head>
+    <body>
+        <h2>Grade Point calculator (out of 10 points)</h2>
+        <table>
+            <tr>
+                <th>Credits</th>
+                <th>Grades</th>
+            </tr>
+            <tr>
+                <td>DAA</td>
+                <td>
+                    <!-- <input type="text" id="g1" value="EX"> -->
+                     <select id="g1">
+                        <option>EX</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>E</option>
+                     </select>
+                </td>
+            </tr>
+            <tr>
+                 <td>DBMS</td>
+                <td><select id="g2">
+                        <option>EX</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>E</option>
+                     </select></td>
+            </tr>
+            <tr>
+                 <td>P&S</td>
+                <td><select id="g3">
+                        <option>EX</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>E</option>
+                     </select></td>
+            </tr>
+            <tr>
+                 <td>FLAT</td>
+                <td><select id="g4">
+                        <option>EX</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>E</option>
+                     </select></td>
+            </tr>
+            <tr>
+                <tr>
+                 <td>DLD</td>
+                <td><select id="g7">
+                        <option>EX</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>E</option>
+                     </select></td>
+            </tr> 
+                 <td>DAA LAB</td>
+                <td><select id="g5">
+                        <option>EX</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>E</option>
+                     </select></td>
+            </tr>
+            <tr>
+                 <td>DBMS LAB</td>
+                <td><select id="g6">
+                        <option>EX</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>E</option>
+                     </select></td>
+            </tr>
+            
+            <tr>
+                 <td>DLD LAB</td>
+                <td><select id="g8">
+                        <option>EX</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>E</option>
+                     </select></td>
+            </tr>
+        </table>
+        <button id="btn" onclick="calc()">Calculate CGPA</button>
+        <h2 id="result">results here</h2>
+            <script src="./script.js"></script>
+    </body>
+</html>
